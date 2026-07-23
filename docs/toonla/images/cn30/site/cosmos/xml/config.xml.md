@@ -21,6 +21,6 @@ Main configuration for the game.
   <?xml version="1.0" encoding="UTF-8" ?>
   <config>
       <openTime>10:00</openTime>
-	    <closeTime>16:30</closeTime>
+      <closeTime>16:30</closeTime>
   </config>
   ```
