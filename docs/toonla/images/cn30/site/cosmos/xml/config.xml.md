@@ -7,9 +7,9 @@ Main configuration for the game.
 ### `config`
 
 - `closeTime`
-  Controls when the game is closed.
+  Controls when the game is closed, in hours and minutes format (e.g. 20:30).
 - `openTime`
-  Controls when the game is available to be played.
+  Controls when the game is available to be played in hours and minutes format (e.g. 10:15).
 
 #### Notes
 
