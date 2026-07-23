@@ -2,6 +2,8 @@
 
 ## Properties
 
+### `config`
+
 - `closeTime`
   Controls when the game is closed.
 - `openTime`
