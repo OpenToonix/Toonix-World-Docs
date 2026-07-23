@@ -1,5 +1,7 @@
 # config.xml
 
+Main configuration for the game.
+
 ## Properties
 
 ### `config`
@@ -8,3 +10,17 @@
   Controls when the game is closed.
 - `openTime`
   Controls when the game is available to be played.
+
+#### Notes
+
+- Both properties `closeTime` and `openTime` control the times when players can or cannot play the game.
+
+  For example, if users are expected to play from 10:00 a.m to 16:30 (six and a half hours), the config would be:
+
+  ```xml
+  <?xml version="1.0" encoding="UTF-8" ?>
+  <config>
+      <openTime>10:00</openTime>
+	    <closeTime>16:30</closeTime>
+  </config>
+  ```
